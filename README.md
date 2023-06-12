@@ -40,7 +40,7 @@ To access the backend the user needs to insert username and password. These are 
 
 ## Using Docker-compose
 
-Note: The MQTT server ([eclipse-mosquitto](https://github.com/pontarolli/eclipse-mosquitto)) has to be running and changed the server IP in the .env file (BROKER_SERVICE_HOST=192.168.1.102)
+Note: The MQTT server ([eclipse-mosquitto](https://github.com/pontarolli/eclipse-mosquitto)) has to be running and changed the server IP in the [.env](https://github.com/pontarolli/novaas/blob/master/.env) file (BROKER_SERVICE_HOST=192.168.1.102)
 
 The docker-compose command is the following:
 
