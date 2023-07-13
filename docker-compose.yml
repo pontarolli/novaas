@@ -2,7 +2,8 @@ version: '2.4'
 services:
     novaas:
         build: .
-        image: "registry.gitlab.com/novaas/catalog/nova-school-of-science-and-technology/novaas:latest"
+        # image: "registry.gitlab.com/novaas/catalog/nova-school-of-science-and-technology/novaas:latest"
+        image: "wika-psd-4:0.1.0"
         environment:
             - "PORT_FORWARDING=${PORT_FORWARDING}" 
             - "HOST=${HOST}"
